@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<title>Minimalist Portfolio</title>
+	<title>Billiardo</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
 	<header>
 		<h1>My Portfolio</h1>
@@ -44,4 +46,5 @@
 		<p>&copy; 2023 My Portfolio. All rights reserved.</p>
 	</footer>
 </body>
+
 </html>
