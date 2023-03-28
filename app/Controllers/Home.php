@@ -4,8 +4,13 @@ namespace App\Controllers;
 
 class Home extends BaseController
 {
-    public function index()
+    public function dashboard()
     {
-        return view('porto');
+        $data = [
+            'title' => 'Dashboard | WEBII',
+            'page' => 'dashboard',
+            'name' => 'Billy Davidson'
+        ];
+        return view('dashboard', $data);
     }
 }
